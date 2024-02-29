@@ -1,0 +1,108 @@
+<!doctype.html>
+<html>
+<head>
+<title> Registration </title>
+<style>
+.menu{
+color:red;
+border:10px solid black;
+padding-left:30px;
+}
+.form{
+color:balck;
+font-size:20px;
+}
+.items
+{
+color:red;
+font-size:25px;
+padding:30px;
+text-decoration:none;
+}
+body{
+background-color:orange;
+  background-image: url('q.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+a:hover{
+background-color:black;
+color:white;
+padding:5px;
+}
+.logo{
+  margin-bottom:0px;
+padding-left:75%;
+}
+.login{
+color:green;
+font-size:30px;
+}
+.h1{
+  color:red;
+}
+</style>
+<body >
+<div class="logo">
+<img src="logo1.png" width="400px" height="200px">
+</div>
+<div class="items">
+<a href="home1.html" class="items">Home</a>
+<a href="register1.html"class="items">Register</a>
+<a href="login1.html"class="items">Login</a>
+<a href="contactus1.html"class="items">Contact us</a>
+<a href="about1.html"class="items">About us</a>
+</div>
+
+<form action ="path" method="post">
+  <div class="h1">
+<marquee><h1>Registration Form</h1></marquee>
+</div>
+<center>
+<div>
+<table border="0" class="login">
+<tr>
+<td>Name</td>
+<td><input type="text" required name="name" ></td></tr><br><br>
+<tr>
+<td>Surname</td><td><input type="text" required name="name"  ></td></tr>
+<tr>
+<td>Father Name</td><td><input type="text" required name="name"  ></td></tr>
+<tr>
+<td>Email</td><td><input type="email" name="email_id" ></td></tr>
+<tr>
+<td>Age</td><td><input type="number" name="Age"   ></td></tr>
+<tr>
+<td>DOB</td><td><input type="date" name="DOB"  ></td></tr>
+<tr>
+<td>Gender</td><td><input type="radio" name="gender" value="male" >male
+<input type="radio" name="gender" value="female"  >female</td></tr>
+<tr>
+<td>Phone No</td><td><input type="text" required name="number" ></td></tr>
+<tr>
+<td>Address</td><td><input type="text" required name="Address" ></td></tr>
+<tr>
+<td>Ward Number</td><td><select name="Ward Number" >
+<option value ="1st Ward">1st Ward </option>
+<option value ="2nd Ward">2nd Ward</option>
+<option value ="3rd Ward"> 3rd ward</option>
+</select></td></tr><br><br>
+<tr>
+<td>Post Office</td><td><select name="Post Office" >
+<option value ="Tadepalli"class="form">Tadepalli </option>
+<option value ="Undavalli"class="form">Undavalli</option>
+<option value ="Mangalagiri"class="form">Mangalagiri </option>
+</select></td></tr><br><br>
+<tr>
+<td>ID Proof</td><td><input type="file" name="Proof" > </td></tr>
+<tr>
+<td>ID Proof</td><td><input type="file" name="Proof" > </td></tr>
+<tr><td><button type="reset" ><b>reset</b></button></td>
+<td><a href="otp.html"class="items"><button><b>Submit</b></button></a></td>
+</div>
+</table>
+</form>
+</center>
+</body>
+</html>

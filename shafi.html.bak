@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <title>Normal DOC</title>
+ <link rel="stylesheet" href="shafi.css">
+ <script defer src="shafi.js"></script>
+ </head>
+ <body>
+     <section class="hidden">
+	 <h1>HELLO WORLD</h1>
+	 </section>
+ <section class="hidden">
+	 <h2>HIIIIIIII</h2>
+	 <p>Bharath shafi GUKGHJGJJJJJJJJJJJJJJHGKGHJGKJGJKKKKKKKKKKKKKKKKKKKKKHGHJ</p>
+	 <img src="C:\Users\yaswa\Desktop\213538\pp\bg.jpg">
+	 </section>
+
+ </body>
+</html>
